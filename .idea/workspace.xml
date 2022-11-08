@@ -45,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CucumberRunner">
+  <component name="RunManager" selected="JUnit.CucumberRunner (1)">
     <configuration name="Feature: filterItem" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/filterItem.feature" />
@@ -85,6 +85,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CucumberRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="respondIprice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CucumberRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="respondIoTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CucumberRunner (1)" />
         <item itemvalue="JUnit.CucumberRunner" />
         <item itemvalue="Cucumber Java.Feature: filterItem" />
         <item itemvalue="Cucumber Java.Scenario: Users are able to filter for an item by brand under the Computing &gt; Laptop section" />
