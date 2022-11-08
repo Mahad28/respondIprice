@@ -4,22 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563a6ed7-528f-4599-ae9f-292adb30ae85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="563a6ed7-528f-4599-ae9f-292adb30ae85" name="Changes" comment="fixed cucumber errors">
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/out/test/respondIoTest/filterItem.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/respondIoTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/src/test/java/CucumberRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/src/test/java/com/respondIo/stepdef/Base.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/respondIoTest/src/test/resources/filterItem.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/respondIo/stepdef/Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/respondIo/stepdef/filterItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/filterItem.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/respondIo/stepdef/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/respondIo/stepdef/filterItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/filterItem.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +58,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/mahad/Desktop/respondIprice/respondIoTest",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mahad/Desktop/respondIprice/respondIoTest&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.CucumberRunner">
     <configuration name="Feature: filterItem" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
@@ -141,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667918714781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed cucumber errors">
+      <created>1667925881870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667925881870</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,7 +174,8 @@
     </ignored-roots>
     <MESSAGE value="added dependencies in pom file" />
     <MESSAGE value="configured cucumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="configured cucumber" />
+    <MESSAGE value="fixed cucumber errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed cucumber errors" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/respondIoTest$CucumberRunner.ic" NAME="CucumberRunner Coverage Results" MODIFIED="1667923849565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
