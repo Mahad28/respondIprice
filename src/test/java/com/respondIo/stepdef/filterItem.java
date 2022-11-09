@@ -1,34 +1,36 @@
 package com.respondIo.stepdef;
 
+import com.respondIo.stepdef.pages.laptopPage;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 
+import static com.respondIo.stepdef.Base.driver;
 import static junit.framework.TestCase.assertTrue;
 
 public class filterItem {
-    @Given("^I Navigate to the '/computing/laptops' page$")
-    public void iNavigateToTheComputingLaptopsPage() {
-        Base.driver.manage().window().maximize();
-        Base.driver.get("https://iprice.my/computing/laptops/");
-    }
-//    @Given("^I Navigate to the '/computing/laptops' page$")
-//    public void i_Navigate_to_the_computing_laptops_page() throws Throwable {
-//        Base.driver.manage().window().maximize();
-//        Base.driver.get("https://iprice.my/computing/laptops/");
-//        throw new PendingException();
-//    }
+    laptopPage lp = new laptopPage();
 
-    @When("^User Select the brand value to be Dell$")
-    public void userSelectTheBrandValueToBeDell() {
-        Base.driver.findElement(By.cssSelector("a[href=\"https://iprice.my/dell/computing/laptops/\"]")).click();
+    @Given("^I Navigate to the \"([^\"]*)\" page$")
+    public void iNavigateToTheComputingLaptopsPage(String brandUrl) {
+        driver.manage().window().maximize();
+        lp.navigate(brandUrl);
     }
 
-    @Then("^Validate that the results returned from page matches the selected brand$")
-    public void validateThatTheResultsReturnedFromPageMatchesTheSelectedBrand() throws InterruptedException {
-        String title = Base.driver.getTitle();
-        assertTrue(title.contains("Dell"));
+    @When("^User Select the brand value to be \"([^\"]*)\"$")
+    public void userSelectTheBrandValueToBeDell(String brand) {
+        lp.clickOnBrand(brand);
+    }
+
+    @Then("^Validate that the results returned from page matches the brand \"([^\"]*)\"$")
+    public void validateThatTheResultsReturnedFromPageMatchesTheSelectedBrand(String brandName) throws InterruptedException {
+        String title = lp.getTitle();
+        String url = lp.getUrl();
+        assertTrue(title.contains(brandName));
+        assertTrue(url.contains(brandName.toLowerCase()));
+        System.out.println(title);
+        System.out.println(driver.getCurrentUrl());
         Thread.sleep(3000);
     }
 }

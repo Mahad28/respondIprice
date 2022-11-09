@@ -14,6 +14,7 @@ public class Base {
         driver = new ChromeDriver();
     }
 
+
     @After
     public static void teardown() {
         if (driver != null) {
